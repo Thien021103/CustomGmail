@@ -29,23 +29,17 @@ class MainActivity : AppCompatActivity() {
         itemList.add(MailModel(R.drawable.l, "LinkedIn", "MBBank and others share their thoughts\n" +
                 "on LinkedIn", "08:56 PM"))
 
-        itemList.add(MailModel(R.drawable.p, "Poe", "Introducing creator monetization on Poe\n" +
-                "Hi Everyone, This week we launched ...", "08:02 PM"))
+        itemList.add(MailModel(R.drawable.y, "Your brother",
+                "Are you looking", "08:02 PM"))
 
-        itemList.add(MailModel(R.drawable.p, "Poe", "Introducing creator monetization on Poe\n" +
-                "Hi Everyone, This week we launched ...", "08:02 PM"))
+        itemList.add(MailModel(R.drawable.m, "Mom",
+                "...", "08:02 PM"))
 
-        itemList.add(MailModel(R.drawable.p, "Poe", "Introducing creator monetization on Poe\n" +
-                "Hi Everyone, This week we launched ...", "08:02 PM"))
+        itemList.add(MailModel(R.drawable.h, "Hello, Im",
+                "No say thankyou", "08:02 PM"))
 
-        itemList.add(MailModel(R.drawable.p, "Poe", "Introducing creator monetization on Poe\n" +
-                "Hi Everyone, This week we launched ...", "08:02 PM"))
-
-        itemList.add(MailModel(R.drawable.p, "Poe", "Introducing creator monetization on Poe\n" +
-                "Hi Everyone, This week we launched ...", "08:02 PM"))
-
-        itemList.add(MailModel(R.drawable.p, "Poe", "Introducing creator monetization on Poe\n" +
-                "Hi Everyone, This week we launched ...", "08:02 PM"))
+        itemList.add(MailModel(R.drawable.j, "Joey", "Introducing creator monetization on Poe\n" +
+                "What is going on", "08:02 PM"))
 
         val listView = findViewById<ListView>(R.id.listView)
         listView.adapter = MailAdapter(itemList)
